@@ -14,11 +14,6 @@ header {
     text-align: center;
 }
 
-header>h1 {
-    padding top: 50px;
-    font-variant: small-caps;
-}
-
 header>p {
     padding: 50px;
 }
@@ -53,6 +48,19 @@ section{
 .imagem > p{
     background-color: black;
     width: 400px;
+    opacity: 0,5;
+}
+
+section#img01{
+ background-image: url(./Desafios/d1/imagens/background001.jpg);
+ background-position: right center;
+ background-size: cover;
+}
+
+section#img02{
+background-image: url(./Desafios/d1/imagens/background002.jpg);
+ background-position: right center;
+ background-size: cover;
 }
 
 footer{
